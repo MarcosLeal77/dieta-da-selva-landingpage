@@ -238,6 +238,14 @@ export default function App() {
   return (
     <div>
       <div className="cursor-glow" aria-hidden="true"></div>
+      <div className="ambient-orbs" aria-hidden="true">
+        <span className="ambient-orb orb-1"></span>
+        <span className="ambient-orb orb-2"></span>
+        <span className="ambient-orb orb-3"></span>
+        <span className="ambient-orb orb-4"></span>
+        <span className="ambient-orb orb-5"></span>
+        <span className="ambient-orb orb-6"></span>
+      </div>
 
       <header className="hero" id="topo">
         <div className="hero-grid">
@@ -252,24 +260,6 @@ export default function App() {
             <p className="lead" data-animate="true">
               É 03:17 da manhã.
             </p>
-          </div>
-          <div className="hero-visual">
-            <div
-              className="orb orb-main parallax"
-              data-parallax="18"
-              style={{ "--parallax-rotate": "-12deg" }}
-            ></div>
-            <div
-              className="orb orb-ring parallax"
-              data-parallax="12"
-              style={{ "--parallax-rotate": "6deg" }}
-            ></div>
-            <div
-              className="orb orb-leaf parallax"
-              data-parallax="20"
-              style={{ "--parallax-rotate": "18deg" }}
-            ></div>
-            <div className="orb orb-seed parallax" data-parallax="8"></div>
           </div>
         </div>
       </header>
