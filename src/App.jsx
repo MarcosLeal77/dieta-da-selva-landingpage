@@ -290,7 +290,7 @@ export default function App() {
 
         <div className="section-divider tight" aria-hidden="true"></div>
 
-        <section className="section reveal section-tight" id="verdade">
+        <section className="section reveal section-tight section-tight-bottom" id="verdade">
           <div className="section-body story-stack">
             <p>
               O problema: você segue o que todos dizem que é certo, mas o corpo não responde. A cada refeição, sente inchaço, preguiça, irritação. E o pior: sente que o tempo tá contra você.
@@ -321,23 +321,23 @@ export default function App() {
             <p>
               Enquanto você sofre com shakes, saladas sem gosto e exercícios exaustivos, existe um caminho onde você come carne com gordura e seu corpo responde sozinho.
             </p>
-            <p>
+            <p className="tight-next">
               Se você não está pronto para isso, feche esta página AGORA. Este método é para quem quer resultados reais, sem firulas.
             </p>
           </div>
         </section>
 
-        <section className="section reveal">
+        <section className="section reveal section-tight-top section-tight-bottom">
           <div className="callout callout-pill">
             <p>Jogue para vencer. Pare de perder tempo com métodos que nunca funcionaram.</p>
           </div>
         </section>
 
-        <section className="section reveal" id="daniel">
+        <section className="section reveal section-tight-top" id="daniel">
           <div className="bio-grid">
             <div className="bio-copy">
               <div className="section-body story-stack">
-                <p>Meu nome é Daniel Nou.</p>
+                <p className="name-highlight">Meu nome é Daniel Nou.</p>
                 <p>
                   Eu estive no mesmo lugar que você: sobrepeso, sem testosterona, libido baixa, sem disposição.
                 </p>

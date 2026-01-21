@@ -417,6 +417,14 @@ section {
   padding-top: 24px;
 }
 
+.section-tight-top {
+  padding-top: 16px;
+}
+
+.section-tight-bottom {
+  padding-bottom: 16px;
+}
+
 .section-header {
   max-width: var(--max-width);
   margin: 0 auto 36px;
@@ -491,6 +499,20 @@ section {
 
 .tight-next {
   margin-bottom: 0;
+}
+
+.name-highlight {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 16px;
+  border-radius: 999px;
+  background: linear-gradient(120deg, var(--leaf), var(--mango));
+  color: #1b2416;
+  font-weight: 700;
+  font-family: "Unbounded", sans-serif;
+  letter-spacing: 0.04em;
+  margin-bottom: 4px;
 }
 
 .callout {
