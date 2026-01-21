@@ -220,6 +220,26 @@ section {
   margin: 0 auto;
 }
 
+.hero-alert {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 18px;
+  border-radius: 999px;
+  background: linear-gradient(120deg, #f6c85f, #ef8a4b);
+  color: #1b2416;
+  font-weight: 700;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  box-shadow: 0 16px 30px rgba(239, 138, 75, 0.35);
+  margin: 0 auto 14px;
+}
+
+.hero-alert span {
+  transform: translateY(1px);
+}
+
 .eyebrow {
   text-transform: uppercase;
   letter-spacing: 0.32em;

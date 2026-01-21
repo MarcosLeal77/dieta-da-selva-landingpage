@@ -250,9 +250,9 @@ export default function App() {
       <header className="hero" id="topo">
         <div className="hero-grid">
           <div className="hero-copy">
-            <p className="eyebrow" data-animate="true">
-              LEIA ANTES QUE SAIA DO AR
-            </p>
+            <div className="hero-alert" data-animate="true">
+              <span>LEIA ANTES QUE SAIA DO AR</span>
+            </div>
             <h1 data-animate="true">
               Transforme seu Corpo, Energia e Libido com uma dieta que a Indústria
               não quer que você saiba
