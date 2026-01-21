@@ -282,7 +282,7 @@ export default function App() {
                 "Tem que passar fome pra emagrecer, comer de 3 em 3 horas, suar sangue na academia"
               </p>
             </blockquote>
-            <p>
+            <p className="tight-next">
               ...não funcionou pra você. E olha, ninguém fala que isso pode estar te fazendo piorar ainda mais.
             </p>
           </div>
