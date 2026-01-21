@@ -257,7 +257,7 @@ export default function App() {
       </header>
 
       <main>
-        <section className="section reveal story-start" id="historia">
+        <section className="section reveal story-start story-tight-end" id="historia">
           <div className="section-body story-stack">
             <p>
               Você está deitado na cama, rolando de um lado para o outro, olhando
@@ -288,9 +288,9 @@ export default function App() {
           </div>
         </section>
 
-        <div className="section-divider" aria-hidden="true"></div>
+        <div className="section-divider tight" aria-hidden="true"></div>
 
-        <section className="section reveal" id="verdade">
+        <section className="section reveal section-tight" id="verdade">
           <div className="section-body story-stack">
             <p>
               O problema: você segue o que todos dizem que é certo, mas o corpo não responde. A cada refeição, sente inchaço, preguiça, irritação. E o pior: sente que o tempo tá contra você.

@@ -409,6 +409,14 @@ section {
   padding-top: 24px;
 }
 
+.story-tight-end {
+  padding-bottom: 24px;
+}
+
+.section-tight {
+  padding-top: 24px;
+}
+
 .section-header {
   max-width: var(--max-width);
   margin: 0 auto 36px;
@@ -475,6 +483,10 @@ section {
     rgba(255, 255, 255, 0.3),
     transparent
   );
+}
+
+.section-divider.tight {
+  margin: 8px auto;
 }
 
 .tight-next {
