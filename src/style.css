@@ -375,6 +375,43 @@ section {
   max-width: 600px;
 }
 
+.section-body {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  display: grid;
+  gap: 16px;
+}
+
+.section-body blockquote {
+  margin: 4px 0;
+  padding-left: 16px;
+  border-left: 2px solid var(--leaf);
+  color: var(--stone);
+  font-style: italic;
+}
+
+.section-body blockquote p {
+  color: inherit;
+}
+
+.bullet-list {
+  display: grid;
+  gap: 8px;
+  color: var(--muted);
+}
+
+.bullet-list li {
+  position: relative;
+  padding-left: 16px;
+}
+
+.bullet-list li::before {
+  content: "-";
+  position: absolute;
+  left: 0;
+  color: var(--leaf);
+}
+
 .manifesto-grid,
 .rituals-grid,
 .track-grid,

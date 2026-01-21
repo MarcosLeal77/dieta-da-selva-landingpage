@@ -239,14 +239,14 @@ export default function App() {
       <header className="hero" id="topo">
         <nav className="nav">
           <a className="logo" href="#topo">
-            Dieta da Selva
+            Protocolo Selva
           </a>
           <div className="nav-links">
-            <a href="#manifesto">Manifesto</a>
-            <a href="#rituais">Rituais</a>
-            <a href="#planos">Planos</a>
+            <a href="#historia">Historia</a>
+            <a href="#protocolo">Protocolo</a>
+            <a href="#depoimentos">Resultados</a>
             <a href="#cta" className="btn btn-ghost" data-magnetic="true">
-              Entrar na trilha
+              Chamar no WhatsApp
             </a>
           </div>
         </nav>
@@ -254,47 +254,46 @@ export default function App() {
         <div className="hero-grid">
           <div className="hero-copy">
             <p className="eyebrow" data-animate="true">
-              Forca limpa. Sabor real.
+              LEIA ANTES QUE SAIA DO AR
             </p>
             <h1 data-animate="true">
-              A dieta que <span className="highlight">acorda</span>
-              <br />
-              sua selva interna.
+              Transforme seu Corpo, Energia e Libido com uma dieta que a{" "}
+              <span className="highlight">Industria</span> nao quer que voce saiba
             </h1>
             <p className="lead" data-animate="true">
-              Um plano alimentar com fases claras, combinacoes vivas e uma rotina
-              simples para quem quer energia constante sem perder prazer.
+              Jogue para vencer. Pare de perder tempo com metodos que nunca
+              funcionaram.
             </p>
             <div className="hero-actions" data-animate="true">
-              <a href="#planos" className="btn btn-primary" data-magnetic="true">
-                Quero o guia
+              <a href="#cta" className="btn btn-primary" data-magnetic="true">
+                CHAMAR NO WHATSAPP!
               </a>
               <a
-                href="#manifesto"
+                href="#historia"
                 className="btn btn-secondary"
                 data-magnetic="true"
               >
-                Ver ritual
+                Ler a historia
               </a>
             </div>
             <div className="stats" data-animate="true">
               <div className="stat-card">
-                <span className="stat-value" data-count="14" data-suffix=" dias">
+                <span className="stat-value" data-count="10" data-suffix="% energia">
                   0
                 </span>
-                <span className="stat-label">ciclo selvagem</span>
+                <span className="stat-label">Primeiros 30 dias</span>
               </div>
               <div className="stat-card">
-                <span className="stat-value" data-count="120" data-suffix="k">
+                <span className="stat-value" data-count="12" data-suffix="kg">
                   0
                 </span>
-                <span className="stat-label">porcoes ajustadas</span>
+                <span className="stat-label">6 meses</span>
               </div>
               <div className="stat-card">
-                <span className="stat-value" data-count="3" data-suffix=" fases">
+                <span className="stat-value" data-count="1" data-suffix=" ano">
                   0
                 </span>
-                <span className="stat-label">rituais diarios</span>
+                <span className="stat-label">Corpo remodelado</span>
               </div>
             </div>
           </div>
@@ -326,7 +325,7 @@ export default function App() {
                 left: "20px",
               }}
             >
-              <span>+ energia real</span>
+              <span>sem fome</span>
             </div>
             <div
               className="floating-tag parallax"
@@ -337,12 +336,12 @@ export default function App() {
                 right: "140px",
               }}
             >
-              <span>zero fome vazia</span>
+              <span>energia alta</span>
             </div>
             <div className="hero-card parallax" data-parallax="16">
-              <p className="card-title">Mapa da Selva</p>
+              <p className="card-title">Protocolo Selva</p>
               <p className="card-text">
-                Combine folhas vivas, frutos densos e proteinas limpas.
+                Metodo brutal para queima natural e hormonios ativados.
               </p>
               <div className="card-dots">
                 <span></span>
@@ -356,195 +355,377 @@ export default function App() {
 
       <section className="marquee">
         <div className="marquee-track">
-          <span>cacau cru</span>
-          <span>castanha do para</span>
-          <span>manga rosa</span>
-          <span>hortela selvagem</span>
-          <span>cafe verde</span>
-          <span>legumes vivos</span>
-          <span>sementes tostadas</span>
-          <span>proteina limpa</span>
-          <span>cacau cru</span>
-          <span>castanha do para</span>
-          <span>manga rosa</span>
-          <span>hortela selvagem</span>
-          <span>cafe verde</span>
-          <span>legumes vivos</span>
-          <span>sementes tostadas</span>
-          <span>proteina limpa</span>
+          <span>fome zero</span>
+          <span>queima maxima</span>
+          <span>disposicao selvagem</span>
+          <span>protocolo selva</span>
+          <span>carne com gordura</span>
+          <span>energia maxima</span>
+          <span>testosterona alta</span>
+          <span>resultados reais</span>
+          <span>fome zero</span>
+          <span>queima maxima</span>
+          <span>disposicao selvagem</span>
+          <span>protocolo selva</span>
+          <span>carne com gordura</span>
+          <span>energia maxima</span>
+          <span>testosterona alta</span>
+          <span>resultados reais</span>
         </div>
       </section>
 
       <main>
-        <section className="section manifesto reveal" id="manifesto">
+        <section className="section reveal" id="historia">
           <div className="section-header">
-            <p className="eyebrow">Manifesto</p>
-            <h2>Um ritual alimentar feito para dias intensos.</h2>
+            <p className="eyebrow">E 03:17 da manha.</p>
+            <h2>Voce esta deitado na cama, rolando de um lado para o outro.</h2>
+          </div>
+          <div className="section-body">
             <p>
-              Nada de dietas secas. A Dieta da Selva usa contrastes de textura,
-              cores e fases para manter foco e saciedade, sem perder liberdade.
+              Voce esta deitado na cama, rolando de um lado para o outro, olhando
+              pro teto, enquanto pensa:
+            </p>
+            <blockquote>
+              <p>
+                "Por que todo mundo consegue resultados e eu nao? Por que eu
+                ainda me sinto inchado, cansado e sem energia, mesmo me matando
+                na academia e contando cada caloria?"
+              </p>
+            </blockquote>
+            <p>
+              O celular vibra. E um amigo que voce ve como "menos disciplinado
+              que voce" postando no Instagram: perdeu peso, ganhou musculo, ta
+              com energia la em cima.
+            </p>
+            <p>
+              Voce sente uma pontada de raiva e frustracao. Tudo que voce ja
+              ouviu:
+            </p>
+            <blockquote>
+              <p>
+                "Tem que passar fome pra emagrecer, comer de 3 em 3 horas, suar
+                sangue na academia"
+              </p>
+            </blockquote>
+            <p>
+              ... nao funcionou pra voce. E olha, ninguem fala que isso pode
+              estar te fazendo piorar ainda mais.
+            </p>
+            <p>
+              O problema: voce segue o que todos dizem que e certo, mas o corpo
+              nao responde. A cada refeicao, sente inchaco, preguica, irritacao.
+              E o pior: sente que o tempo ta contra voce.
             </p>
           </div>
-          <div className="manifesto-grid">
-            <article className="manifesto-card">
-              <h3>Raiz</h3>
+        </section>
+
+        <section className="section reveal" id="verdade">
+          <div className="section-header">
+            <p className="eyebrow">A verdade brutal</p>
+            <h2>A mentalidade de vitima e uma armadilha.</h2>
+          </div>
+          <div className="section-body">
+            <p>
+              Aqui esta a verdade brutal: a mentalidade de vitima e uma
+              armadilha.
+            </p>
+            <p>Voce pensa:</p>
+            <blockquote>
               <p>
-                Comece com bases densas e minerais para sustentar o ritmo da
-                manha.
+                "Nao e justo... eu merecia mais... por que funciona pros outros
+                e nao pra mim?"
               </p>
-            </article>
-            <article className="manifesto-card">
-              <h3>Ritmo</h3>
-              <p>Intercale picos leves e reforcos inteligentes sem fome rebote.</p>
-            </article>
-            <article className="manifesto-card">
-              <h3>Fluxo</h3>
-              <p>Finalize com combinacoes suaves que preparam o sono profundo.</p>
-            </article>
+            </blockquote>
+            <p>
+              Quebre essa narrativa agora: funciona pros outros porque eles
+              descobriram um principio que voce ainda nao entendeu.
+            </p>
+            <p>
+              O "incompetente" que parece ganhar resultados sem esforco nao
+              passa fome, nao conta calorias, nao vive na academia. Ele so
+              descobriu como fazer o corpo queimar gordura de forma natural,
+              enquanto aproveita a vida.
+            </p>
+            <p>
+              E percepcao sobre conhecimento. Saber comer certo, na hora certa,
+              com os alimentos certos, pode ser mais poderoso que treinar 7x por
+              semana e morrer de fome.
+            </p>
+            <p>Chega de seguir dietas que nao respeitam seu corpo.</p>
+            <p>A nova verdade e brutal:</p>
+            <p>
+              Seu corpo nao precisa de restricao, calorias contadas ou academia.
+              Ele precisa de alimentos que ativem seus hormonios, queimem
+              gordura e aumentem testosterona naturalmente.
+            </p>
+            <p>
+              Enquanto voce sofre com shakes, saladas sem gosto e exercicios
+              exaustivos, existe um caminho onde voce come carne com gordura e
+              seu corpo responde sozinho.
+            </p>
+            <p>
+              Se voce nao esta pronto para isso, feche esta pagina AGORA. Este
+              metodo e para quem quer resultados reais, sem firulas.
+            </p>
           </div>
         </section>
 
-        <section className="section rituals reveal" id="rituais">
+        <section className="section reveal" id="daniel">
           <div className="section-header">
-            <p className="eyebrow">Rituais diarios</p>
-            <h2>Tres fases para cada dia render mais.</h2>
+            <p className="eyebrow">Quem sou eu</p>
+            <h2>Meu nome e Daniel Nou.</h2>
           </div>
-          <div className="rituals-grid">
-            <article className="ritual-card tilt">
-              <div className="ritual-badge">Fase 01</div>
-              <h3>Alvorada</h3>
-              <p>Hidratacao intensa, frutas vivas e um toque de proteina leve.</p>
-              <ul>
-                <li>agua mineral + limao</li>
-                <li>shake verde com gengibre</li>
-                <li>sementes crocantes</li>
-              </ul>
-            </article>
-            <article className="ritual-card tilt">
-              <div className="ritual-badge">Fase 02</div>
-              <h3>Cacada</h3>
-              <p>Refeicoes densas para manter foco e resistencia o dia todo.</p>
-              <ul>
-                <li>proteina limpa grelhada</li>
-                <li>folhas vivas e legumes</li>
-                <li>carbo inteligente</li>
-              </ul>
-            </article>
-            <article className="ritual-card tilt">
-              <div className="ritual-badge">Fase 03</div>
-              <h3>Acampamento</h3>
-              <p>Combinacoes suaves para recuperar o corpo e desligar a mente.</p>
-              <ul>
-                <li>sopa cremosa de legumes</li>
-                <li>infusao calmante</li>
-                <li>gorduras boas</li>
-              </ul>
-            </article>
-          </div>
-        </section>
-
-        <section className="section track reveal" id="trilha">
-          <div className="section-header">
-            <p className="eyebrow">Trilha de 14 dias</p>
-            <h2>Planejamento simples, resultado consistente.</h2>
+          <div className="section-body">
+            <p>
+              Eu estive no mesmo lugar que voce: sobrepeso, sem testosterona,
+              libido baixa, sem disposicao.
+            </p>
+            <p>Hoje sou o que chamo de superhomem da vida real.</p>
           </div>
           <div className="track-grid">
             <div className="track-card">
-              <h3>Semana 1</h3>
-              <p>Desinflamar, ganhar energia limpa e acordar o apetite certo.</p>
-              <div className="track-bar">
-                <span style={{ width: "45%" }}></span>
-              </div>
+              <h3>Primeiros 30 dias</h3>
+              <p>+10% de energia, primeira mudanca visivel no corpo.</p>
             </div>
             <div className="track-card">
-              <h3>Semana 2</h3>
-              <p>Equilibrar rotina, consolidar o ritmo e acelerar resultados.</p>
-              <div className="track-bar">
-                <span style={{ width: "85%" }}></span>
-              </div>
+              <h3>6 meses</h3>
+              <p>-12kg, disposicao em niveis que eu nunca imaginei.</p>
+            </div>
+            <div className="track-card">
+              <h3>1 ano</h3>
+              <p>Corpo remodelado, testosterona normalizada, mental afiada.</p>
             </div>
             <div className="track-card track-card-highlight">
-              <h3>Mapa completo</h3>
-              <p>Lista de compras, substituicoes e combinacoes prontas.</p>
-              <a href="#planos" className="btn btn-secondary" data-magnetic="true">
-                Ver planos
-              </a>
+              <h3>Hoje</h3>
+              <p>Energia infinita, libido alta, corpo forte, me sinto um viking.</p>
             </div>
           </div>
-        </section>
-
-        <section className="section planos reveal" id="planos">
-          <div className="section-header">
-            <p className="eyebrow">Planos</p>
-            <h2>Escolha o ritmo ideal para sua selva.</h2>
-          </div>
-          <div className="plan-grid">
-            <article className="plan-card">
-              <h3>Trilha Base</h3>
-              <p className="plan-price">R$ 59</p>
-              <ul>
-                <li>Guia de 14 dias</li>
-                <li>Cardapios diarios</li>
-                <li>Lista de compras</li>
-              </ul>
-              <button className="btn btn-secondary" data-magnetic="true">
-                Comecar
-              </button>
-            </article>
-            <article className="plan-card plan-card-featured">
-              <div className="plan-tag">Mais forte</div>
-              <h3>Trilha Alpha</h3>
-              <p className="plan-price">R$ 119</p>
-              <ul>
-                <li>Guia completo + extras</li>
-                <li>Rotina personalizada</li>
-                <li>Suporte semanal</li>
-              </ul>
-              <button className="btn btn-primary" data-magnetic="true">
-                Quero esse
-              </button>
-            </article>
-            <article className="plan-card">
-              <h3>Trilha Pro</h3>
-              <p className="plan-price">R$ 199</p>
-              <ul>
-                <li>Mapa avancado</li>
-                <li>Consultoria 1:1</li>
-                <li>Receitas exclusivas</li>
-              </ul>
-              <button className="btn btn-secondary" data-magnetic="true">
-                Falar comigo
-              </button>
-            </article>
+          <div className="section-body">
+            <p>
+              Eu nao estou vendendo algo que eu nao usei. Estou vendendo um
+              metodo que funcionou na minha vida e na vida de pessoas comuns
+              como voce.
+            </p>
           </div>
         </section>
 
         <section className="section depoimentos reveal" id="depoimentos">
           <div className="section-header">
-            <p className="eyebrow">Quem viveu</p>
-            <h2>Resultados reais, rotina sustentavel.</h2>
+            <p className="eyebrow">Resultados reais</p>
+            <h2>Meus clientes vivem mudancas semelhantes.</h2>
           </div>
           <div className="testimonials-grid">
             <article className="testimonial">
+              <h3>Aumauri, 50 anos</h3>
               <p>
-                "O ritual da manha mudou meu foco. Finalmente parei de ter fome
-                o tempo todo."
+                -16kg, disposicao elevada, menos inchado, pre-diabetes
+                eliminado, testosterona alta. Ele mesmo disse:
               </p>
-              <span>Camila, 28</span>
+              <p>"Me sinto como um Viking!"</p>
             </article>
             <article className="testimonial">
+              <h3>Mais 4 pessoas</h3>
               <p>
-                "As fases sao simples e claras. Em duas semanas ja senti mais
-                leveza e energia."
+                Depoimentos variados de mais 4 pessoas que tiveram resultados em
+                poucos dias.
               </p>
-              <span>Rodrigo, 35</span>
             </article>
             <article className="testimonial">
+              <h3>Sergio Nascimento</h3>
               <p>
-                "Gosto do sabor, da lista de compras e do ritmo. E facil de
-                manter no dia a dia."
+                Hoje quase 2 meses de protocolo selva saindo de 120 kg para 107
+                kg, 13 kg a menos, mais disposicao, mais energia, sem sentir o
+                corpo inchado, sem dores no corpo, hoje posso afirmar com toda a
+                certeza que a dieta da selva mudou a minha vida.
               </p>
-              <span>Pri, 41</span>
+            </article>
+          </div>
+        </section>
+
+        <section className="section reveal" id="protocolo">
+          <div className="section-header">
+            <p className="eyebrow">Protocolo Selva</p>
+            <h2>Metodo brutal e eficaz para emagrecer e ganhar massa.</h2>
+          </div>
+          <div className="section-body">
+            <p>
+              Apresento a voce o PROTOCOLO SELVA - o metodo BRUTAL e EFICAZ para
+              emagrecer e ganhar massa, sem academia, sem passar fome, comendo
+              carne com gordura.
+            </p>
+            <p>Tres pilares:</p>
+          </div>
+          <div className="rituals-grid">
+            <article className="ritual-card tilt">
+              <div className="ritual-badge">Pilar 01</div>
+              <h3>FOME ZERO</h3>
+              <p>
+                <strong>O que e:</strong> Comer alimentos ricos em gordura e
+                proteina, satisfazendo o corpo.
+              </p>
+              <p>
+                <strong>Resultado:</strong> Sem fome, energia constante.
+              </p>
+              <p>
+                <strong>Como vai se sentir:</strong> Livre da ansiedade por
+                comida.
+              </p>
+            </article>
+            <article className="ritual-card tilt">
+              <div className="ritual-badge">Pilar 02</div>
+              <h3>QUEIMA MAXIMA</h3>
+              <p>
+                <strong>O que e:</strong> Estrategia de alimentacao que ativa a
+                queima de gordura naturalmente.
+              </p>
+              <p>
+                <strong>Resultado:</strong> Reducao de gordura mesmo em repouso.
+              </p>
+              <p>
+                <strong>Como vai se sentir:</strong> Corpo mais leve, menos
+                inchado, inflamado.
+              </p>
+            </article>
+            <article className="ritual-card tilt">
+              <div className="ritual-badge">Pilar 03</div>
+              <h3>DISPOSICAO SELVAGEM</h3>
+              <p>
+                <strong>O que e:</strong> Reeducacao hormonal com alimentos
+                certos.
+              </p>
+              <p>
+                <strong>Resultado:</strong> Testosterona elevada, libido em alta,
+                musculos mais definidos.
+              </p>
+              <p>
+                <strong>Como vai se sentir:</strong> Confianca, vigor e
+                masculinidade aflorada.
+              </p>
+            </article>
+          </div>
+        </section>
+
+        <section className="section reveal" id="comparacao">
+          <div className="section-header">
+            <p className="eyebrow">Metodo tradicional vs Protocolo Selva</p>
+            <h2>O corpo foi feito para sobrevivencia, nao para restricao.</h2>
+          </div>
+          <div className="plan-grid">
+            <article className="plan-card">
+              <h3>Dieta comum: 3% de sucesso.</h3>
+              <p>Contagem de calorias, fome, academia exaustiva.</p>
+              <p>Por que tao pouco?</p>
+              <p>
+                Porque o corpo humano nao foi feito pra restricao - foi feito
+                pra sobrevivencia.
+              </p>
+              <p>
+                Quando voce corta calorias e vive com fome, o corpo entra em
+                modo defesa, desacelera o metabolismo, retem gordura e rouba sua
+                energia.
+              </p>
+              <p>
+                E como tentar domar um leao prendendo ele numa jaula - ele nao
+                obedece, ele se apaga.
+              </p>
+            </article>
+            <article className="plan-card plan-card-featured">
+              <h3>Protocolo Selva: ate 87% de sucesso real.</h3>
+              <p>Carne com gordura, energia maxima, corpo respondendo naturalmente.</p>
+              <p>Aqui e o oposto:</p>
+              <p>
+                Voce da ao corpo o combustivel certo e ele entende o sinal -
+                "estou seguro, posso queimar, posso crescer."
+              </p>
+              <p>
+                O corpo para de se defender e comeca a funcionar como foi
+                programado pela natureza.
+              </p>
+            </article>
+          </div>
+          <div className="section-body">
+            <p>
+              O corpo nao precisa de contagem de calorias, ele precisa de sinais
+              certos.
+            </p>
+            <p>
+              Cada refeicao no Protocolo Selva envia o comando de queimar gordura
+              e gerar energia - e biologia, nao sacrificio.
+            </p>
+          </div>
+        </section>
+
+        <section className="section reveal" id="exemplos">
+          <div className="section-header">
+            <p className="eyebrow">Exemplos praticos</p>
+            <h2>Voce tera exemplos praticos, como:</h2>
+          </div>
+          <div className="section-body">
+            <ul className="bullet-list">
+              <li>Cafe da manha: carne com gordura, energia alta</li>
+              <li>Almoco: proteina animal, gordura boa, queima ativa</li>
+              <li>Jantar: refeicao estrategica, hormonios equilibrados</li>
+            </ul>
+            <p>
+              Imagine se seu corpo virasse um ima de forca, energia e resultado.
+            </p>
+            <p>
+              O Protocolo Selva faz isso acontecer - mas as vagas sao poucas, e
+              o momento e agora.
+            </p>
+            <p>
+              Este curso e extensao de voce, e o que seu corpo ja quer fazer,
+              mas nunca soube como.
+            </p>
+            <ul className="bullet-list">
+              <li>Sem frescura</li>
+              <li>Sem sofrimento</li>
+              <li>So resultados</li>
+            </ul>
+          </div>
+        </section>
+
+        <section className="section reveal" id="recebe">
+          <div className="section-header">
+            <p className="eyebrow">O que voce recebe</p>
+            <h2>O que voce recebe ao entrar no PROTOCOLO SELVA:</h2>
+          </div>
+          <div className="manifesto-grid">
+            <article className="manifesto-card">
+              <h3>TREINAMENTO SELVA</h3>
+              <p>
+                Mais de 20 aulas! Aprenda tudo sobre a Dieta da Selva, jejum
+                estrategico e exposicao ao sol diario para maximizar queima de
+                gordura, energia e testosterona.
+              </p>
+            </article>
+            <article className="manifesto-card">
+              <h3>REFEICOES E LISTA DE COMPRAS</h3>
+              <p>
+                Saiba exatamente como montar suas refeicoes, o que comprar e
+                como comer sem passar fome, seguindo a dieta animal based.
+              </p>
+            </article>
+            <article className="manifesto-card">
+              <h3>COMUNIDADE SELVA</h3>
+              <p>
+                Grupo exclusivo para compartilhar resultados, tirar duvidas,
+                trocar experiencias e manter a motivacao sempre la em cima.
+              </p>
+            </article>
+            <article className="manifesto-card">
+              <h3>SUPORTE DIRETO COMIGO</h3>
+              <p>
+                Tire suas duvidas e receba orientacao direta comigo para garantir
+                que voce siga o metodo sem erros.
+              </p>
+            </article>
+            <article className="manifesto-card">
+              <h3>ATUALIZACOES FUTURAS</h3>
+              <p>
+                Conteudos novos, tecnicas e ajustes liberados constantemente para
+                manter seus resultados sempre crescendo.
+              </p>
             </article>
           </div>
         </section>
@@ -552,15 +733,24 @@ export default function App() {
         <section className="section cta reveal" id="cta">
           <div className="cta-card">
             <div>
-              <p className="eyebrow">Pronto para comecar?</p>
-              <h2>Entre na trilha agora e receba o mapa completo.</h2>
+              <p className="eyebrow">As vagas sao LIMITADAS.</p>
+              <h2>Nao entre se voce nao estiver pronto para resultados reais.</h2>
+              <div className="section-body">
+                <p>
+                  Se voce nao agir agora, vai ter que esperar meses para proxima
+                  abertura.
+                </p>
+                <p>Decida agora:</p>
+                <p>
+                  Clique abaixo e me chame no WhatsApp para entender como
+                  funciona e comece a transformar seu corpo, energia e vida com
+                  o PROTOCOLO SELVA.
+                </p>
+              </div>
             </div>
             <div className="cta-actions">
               <button className="btn btn-primary" data-magnetic="true">
-                Quero entrar
-              </button>
-              <button className="btn btn-ghost" data-magnetic="true">
-                Falar com time
+                CHAMAR NO WHATSAPP!
               </button>
             </div>
           </div>
@@ -569,12 +759,12 @@ export default function App() {
 
       <footer className="footer">
         <div>
-          <span className="logo">Dieta da Selva</span>
-          <p>Energia limpa, sabor real, rotina simples.</p>
+          <span className="logo">Protocolo Selva</span>
+          <p>Energia real, corpo forte, vida intensa.</p>
         </div>
         <div className="footer-links">
-          <a href="#manifesto">Manifesto</a>
-          <a href="#planos">Planos</a>
+          <a href="#historia">Historia</a>
+          <a href="#protocolo">Protocolo</a>
           <a href="#cta">Contato</a>
         </div>
       </footer>
