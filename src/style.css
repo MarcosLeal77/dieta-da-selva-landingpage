@@ -505,6 +505,21 @@ section {
   font-size: 1.15rem;
 }
 
+.callout.full-bleed {
+  max-width: none;
+  width: min(1100px, calc(100vw - 32px));
+  margin: 0 auto;
+  border-radius: 28px;
+  background: linear-gradient(
+    120deg,
+    rgba(114, 214, 106, 0.24),
+    rgba(246, 200, 95, 0.22),
+    rgba(239, 138, 75, 0.18)
+  );
+  border: 1px solid rgba(246, 200, 95, 0.35);
+  font-size: 1.2rem;
+}
+
 .attention {
   margin-top: 18px;
   font-weight: 600;

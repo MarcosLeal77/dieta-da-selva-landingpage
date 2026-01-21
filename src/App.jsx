@@ -328,7 +328,7 @@ export default function App() {
         </section>
 
         <section className="section reveal">
-          <div className="callout">
+          <div className="callout full-bleed">
             <p>Jogue para vencer. Pare de perder tempo com métodos que nunca funcionaram.</p>
           </div>
         </section>
