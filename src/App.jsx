@@ -238,16 +238,13 @@ export default function App() {
   return (
     <div>
       <div className="cursor-glow" aria-hidden="true"></div>
-      <div className="ambient-orbs" aria-hidden="true">
-        <span className="ambient-icon icon-leaf"></span>
-        <span className="ambient-icon icon-meat"></span>
-        <span className="ambient-icon icon-cheese"></span>
-        <span className="ambient-icon icon-citrus"></span>
-        <span className="ambient-icon icon-berry"></span>
-        <span className="ambient-icon icon-vine"></span>
-      </div>
 
       <header className="hero" id="topo">
+        <div className="hero-icons" aria-hidden="true">
+          <span className="hero-icon icon-body"></span>
+          <span className="hero-icon icon-energy"></span>
+          <span className="hero-icon icon-libido"></span>
+        </div>
         <div className="hero-grid">
           <div className="hero-copy">
             <div className="hero-alert" data-animate="true">
