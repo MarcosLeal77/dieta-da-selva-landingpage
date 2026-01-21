@@ -240,11 +240,6 @@ export default function App() {
       <div className="cursor-glow" aria-hidden="true"></div>
 
       <header className="hero" id="topo">
-        <div className="hero-icons" aria-hidden="true">
-          <span className="hero-icon icon-body"></span>
-          <span className="hero-icon icon-energy"></span>
-          <span className="hero-icon icon-libido"></span>
-        </div>
         <div className="hero-grid">
           <div className="hero-copy">
             <div className="hero-alert" data-animate="true">
@@ -254,7 +249,7 @@ export default function App() {
               Transforme seu Corpo, Energia e Libido com uma dieta que a Indústria
               não quer que você saiba
             </h1>
-            <p className="lead" data-animate="true">
+            <p className="lead story-time" data-animate="true">
               É 03:17 da manhã.
             </p>
           </div>
@@ -262,7 +257,7 @@ export default function App() {
       </header>
 
       <main>
-        <section className="section reveal" id="historia">
+        <section className="section reveal story-start" id="historia">
           <div className="section-body story-stack">
             <p>
               Você está deitado na cama, rolando de um lado para o outro, olhando
