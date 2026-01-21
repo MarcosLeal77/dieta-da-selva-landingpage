@@ -107,7 +107,7 @@ section {
 
 
 .hero {
-  padding: 36px 24px 56px;
+  padding: 36px 24px 32px;
 }
 
 .nav {
@@ -406,7 +406,7 @@ section {
 }
 
 .story-start {
-  padding-top: 48px;
+  padding-top: 24px;
 }
 
 .section-header {
