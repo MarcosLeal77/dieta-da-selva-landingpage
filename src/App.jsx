@@ -239,12 +239,12 @@ export default function App() {
     <div>
       <div className="cursor-glow" aria-hidden="true"></div>
       <div className="ambient-orbs" aria-hidden="true">
-        <span className="ambient-orb orb-1"></span>
-        <span className="ambient-orb orb-2"></span>
-        <span className="ambient-orb orb-3"></span>
-        <span className="ambient-orb orb-4"></span>
-        <span className="ambient-orb orb-5"></span>
-        <span className="ambient-orb orb-6"></span>
+        <span className="ambient-icon icon-leaf"></span>
+        <span className="ambient-icon icon-meat"></span>
+        <span className="ambient-icon icon-cheese"></span>
+        <span className="ambient-icon icon-citrus"></span>
+        <span className="ambient-icon icon-berry"></span>
+        <span className="ambient-icon icon-vine"></span>
       </div>
 
       <header className="hero" id="topo">
