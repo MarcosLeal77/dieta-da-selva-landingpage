@@ -481,16 +481,29 @@ export default function App() {
         </section>
 
         <section className="section reveal" id="daniel">
-          <div className="section-header">
-            <p className="eyebrow">Quem sou eu</p>
-            <h2>Meu nome e Daniel Nou.</h2>
-          </div>
-          <div className="section-body">
-            <p>
-              Eu estive no mesmo lugar que voce: sobrepeso, sem testosterona,
-              libido baixa, sem disposicao.
-            </p>
-            <p>Hoje sou o que chamo de superhomem da vida real.</p>
+          <div className="bio-grid">
+            <div className="bio-copy">
+              <div className="section-header">
+                <p className="eyebrow">Quem sou eu</p>
+                <h2>Meu nome e Daniel Nou.</h2>
+              </div>
+              <div className="section-body">
+                <p>
+                  Eu estive no mesmo lugar que voce: sobrepeso, sem testosterona,
+                  libido baixa, sem disposicao.
+                </p>
+                <p>Hoje sou o que chamo de superhomem da vida real.</p>
+              </div>
+            </div>
+            <div className="bio-photo">
+              <picture>
+                <img
+                  src="/images/danielnou.webp"
+                  alt="Daniel Nou"
+                  loading="lazy"
+                />
+              </picture>
+            </div>
           </div>
           <div className="track-grid">
             <div className="track-card">
