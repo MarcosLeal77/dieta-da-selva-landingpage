@@ -494,30 +494,19 @@ section {
 }
 
 .callout {
-  max-width: 860px;
-  margin: 0 auto;
-  padding: 28px 32px;
-  border-radius: var(--radius-md);
-  border: 1px solid var(--stroke);
-  background: rgba(14, 20, 10, 0.7);
-  box-shadow: var(--shadow);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 24px;
+  border-radius: 999px;
+  background: rgba(246, 200, 95, 0.18);
+  color: var(--mango);
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: 0.04em;
   text-align: center;
-  font-size: 1.15rem;
-}
-
-.callout.full-bleed {
-  max-width: none;
-  width: min(1100px, calc(100vw - 32px));
   margin: 0 auto;
-  border-radius: 28px;
-  background: linear-gradient(
-    120deg,
-    rgba(114, 214, 106, 0.24),
-    rgba(246, 200, 95, 0.22),
-    rgba(239, 138, 75, 0.18)
-  );
-  border: 1px solid rgba(246, 200, 95, 0.35);
-  font-size: 1.2rem;
+  box-shadow: 0 12px 24px rgba(239, 138, 75, 0.18);
 }
 
 .attention {
