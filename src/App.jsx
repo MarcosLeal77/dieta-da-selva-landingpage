@@ -2,6 +2,8 @@ import { useEffect } from "react";
 import gsap from "gsap";
 
 const formatNumber = (value) => value.toLocaleString("pt-BR");
+const WHATSAPP_LINK =
+  "https://api.whatsapp.com/send/?phone=554499889644&text=Fala+Daniel%2C+vim+da+Bio+e+quero+conhecer+o+PDS+%EF%BF%BD&type=phone_number&app_absent=0";
 
 export default function App() {
   useEffect(() => {
@@ -245,7 +247,11 @@ export default function App() {
             <a href="#historia">Historia</a>
             <a href="#protocolo">Protocolo</a>
             <a href="#depoimentos">Resultados</a>
-            <a href="#cta" className="btn btn-ghost" data-magnetic="true">
+            <a
+              href={WHATSAPP_LINK}
+              className="btn btn-ghost"
+              data-magnetic="true"
+            >
               Chamar no WhatsApp
             </a>
           </div>
@@ -265,7 +271,11 @@ export default function App() {
               funcionaram.
             </p>
             <div className="hero-actions" data-animate="true">
-              <a href="#cta" className="btn btn-primary" data-magnetic="true">
+              <a
+                href={WHATSAPP_LINK}
+                className="btn btn-primary"
+                data-magnetic="true"
+              >
                 CHAMAR NO WHATSAPP!
               </a>
               <a
@@ -749,9 +759,13 @@ export default function App() {
               </div>
             </div>
             <div className="cta-actions">
-              <button className="btn btn-primary" data-magnetic="true">
+              <a
+                href={WHATSAPP_LINK}
+                className="btn btn-primary"
+                data-magnetic="true"
+              >
                 CHAMAR NO WHATSAPP!
-              </button>
+              </a>
             </div>
           </div>
         </section>
