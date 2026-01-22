@@ -352,22 +352,18 @@ export default function App() {
           </div>
           <div className="track-grid">
             <div className="track-card timeline-card">
-              <span className="timeline-icon icon-sun" aria-hidden="true"></span>
               <span className="timeline-label">Primeiros 30 dias</span>
               <p>+10% de energia, primeira mudança visível no corpo</p>
             </div>
             <div className="track-card timeline-card">
-              <span className="timeline-icon icon-flame" aria-hidden="true"></span>
               <span className="timeline-label">6 meses</span>
               <p>-12kg, disposição em níveis que eu nunca imaginei</p>
             </div>
             <div className="track-card timeline-card">
-              <span className="timeline-icon icon-shield" aria-hidden="true"></span>
               <span className="timeline-label">1 ano</span>
               <p>corpo remodelado, testosterona normalizada, mental afiada</p>
             </div>
             <div className="track-card timeline-card">
-              <span className="timeline-icon icon-viking" aria-hidden="true"></span>
               <span className="timeline-label">Hoje</span>
               <p>energia infinita, libido alta, corpo forte, me sinto um viking</p>
             </div>
