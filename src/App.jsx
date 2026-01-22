@@ -369,8 +369,10 @@ export default function App() {
             </div>
           </div>
           <div className="callout callout-pill">
+            <p>Eu não estou vendendo algo que eu não usei.</p>
             <p>
-              Eu não estou vendendo algo que eu não usei. Estou vendendo um método que funcionou na minha vida e na vida de pessoas comuns como você.
+              Estou vendendo um método que funcionou na minha vida e na vida de
+              pessoas comuns como você.
             </p>
           </div>
         </section>

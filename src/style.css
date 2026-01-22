@@ -508,8 +508,10 @@ section {
 
 .callout {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
+  gap: 6px;
   padding: 10px 24px;
   border-radius: 999px;
   background: rgba(246, 200, 95, 0.18);
@@ -521,6 +523,10 @@ section {
   width: min(860px, 92vw);
   margin: 0 auto;
   box-shadow: 0 12px 24px rgba(239, 138, 75, 0.18);
+}
+
+.callout p {
+  margin: 0;
 }
 
 .attention {
