@@ -368,7 +368,7 @@ export default function App() {
               <p>energia infinita, libido alta, corpo forte, me sinto um viking</p>
             </div>
           </div>
-          <div className="section-body story-stack">
+          <div className="callout callout-pill">
             <p>
               Eu não estou vendendo algo que eu não usei. Estou vendendo um método que funcionou na minha vida e na vida de pessoas comuns como você.
             </p>
